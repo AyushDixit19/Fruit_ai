@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.login-container, .home-container, .chatbot-container, .translator-container, .faq-container, .about-container {
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+input, select {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}
+
+.fruit-card, .service-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.fruit-card:hover, .service-card:hover {
+  background-color: #f1f1f1;
+}
